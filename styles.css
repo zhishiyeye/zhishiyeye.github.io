@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    .bottom-images {
+        position: relative; /* 父元素相对定位 */
+        text-align: center; /* 图片居中对齐 */
+        margin-top: 20px; /* 上边距 */
+    }
+    
+    .image1 {
+        width: 450px; /* 图片1宽度 */
+        height: 250px; /* 保持宽高比 */
+        margin-right: 20px; /* 图片1右边距 */
+    }
+    
+    .image2 {
+        position: fixed; /* 固定定位 */
+        bottom: 100px; /* 底部对齐 */
+        right: 0; /* 右边对齐 */
+        margin-bottom: 20px; /* 底部边距 */
+        margin-right: 20px; /* 右边距 */
+    width: 135px; /* 图片2宽度 */
+    height: auto; /* 保持宽高比 */
+    margin-bottom: 0px;
+    }
+}
